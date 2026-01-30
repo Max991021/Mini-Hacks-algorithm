@@ -12,7 +12,7 @@ def people():
         
         try:
             if len(people)%2 == 0:
-                peeps = random.choices(people, k=2)
+                peeps = random.sample(people, k=2)
                 groupselection['Group: '+str(count)] = peeps
                     
                 for ind,ele in enumerate(peeps):
