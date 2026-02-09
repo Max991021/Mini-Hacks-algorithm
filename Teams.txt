@@ -1,0 +1,4 @@
+Thank you all for participating in the Mini Hacks-----Happy Coding
+-------------These will be your groups for the week----------------
+Group: 1 will be ['T', 'Max']
+Group: 2 will be ['Kani', 'Fiji']

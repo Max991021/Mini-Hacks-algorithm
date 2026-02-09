@@ -34,7 +34,12 @@ def people():
         else:
             print('No people chosen or list is less than 2 people')
         
-        print(groupselection)
+        with open('Teams.txt', 'w', errors='ignore') as writefile:
+            writefile.write(f'Thank you all for participating in the Mini Hacks-----Happy Coding')
+            writefile.write(f'\n-------------These will be your groups for the week----------------\n')
+            for key,value in groupselection.items():
+                writefile.write(f'{key} will be {value}\n')
+                
     
 people()
          
